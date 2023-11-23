@@ -1,10 +1,10 @@
 src = $(wildcard src/*.c)
 obj = $(src:.c=.o)
 
-CFLAGS = -Wall -O2
+CCFLAGS = -pthread -Wall -O2
 
 aire: $(obj)
-	$(CC) $(CFLAGS) -o $@ $^
+	$(CC) $(CCFLAGS) -o $@ $^
 
 .PHONY: clean
 clean:
