@@ -4,7 +4,7 @@ This is an emulator of my [RC6502 Apple 1 Replica](https://github.com/tebl/RC650
 
 ## Compiling
 
-Just type 'make'
+Just type 'make' or 'gmake', depending on your system.
 
 ## Usage:
 
