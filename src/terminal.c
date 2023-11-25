@@ -39,7 +39,7 @@ static struct timespec last_char_timestamp, last_key_timestamp;
 static struct termios oldt;
 static int oldf;
 static uint8_t last_key;
-static volatile uint8_t stdin_value;
+static volatile int stdin_value;
 static volatile uint8_t stdin_has_data = 0;
 static FILE *wozfile;
 static long wozsize;
