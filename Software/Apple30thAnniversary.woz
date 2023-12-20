@@ -1,5 +1,3 @@
-Set the terminal to 40 x 24 to display properly
-
 0280: A9 FF 48 A9 00 48 A9 2D
 : 85 06 A9 03 85 07 20 15
 : 03 A0 00 B1 06 F0 1B 4A
