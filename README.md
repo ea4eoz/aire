@@ -1,6 +1,8 @@
 # AIRE: Apple I Replica Emulator
 
-![RC6502](https://github.com/ea4eoz/aire/blob/main/RC6502.jpg?raw=true)This is an emulator of my [RC6502 Apple 1 Replica](https://github.com/tebl/RC6502-Apple-1-Replica) single board computer for Unix-like systems. It started as a 6502 emulator but once the CPU was emulated acurately (it pass successfully [Klaus Dormann's 6502 functional tests](https://github.com/Klaus2m5/6502_65C02_functional_tests)), I added emulation of the probably the simplest 6502 computer in the world, the Apple I, but with the advantages of the RC6502 SBC: 32kb of RAM and 8kb of ROM with some built-in programs.
+![RC6502](https://github.com/ea4eoz/aire/blob/main/RC6502.jpg?raw=true)
+
+This is an emulator of my [RC6502 Apple 1 Replica](https://github.com/tebl/RC6502-Apple-1-Replica) single board computer for Unix-like systems. It started as a 6502 emulator but once the CPU was emulated acurately (it pass successfully [Klaus Dormann's 6502 functional tests](https://github.com/Klaus2m5/6502_65C02_functional_tests)), I added emulation of the probably the simplest 6502 computer in the world, the Apple I, but with the advantages of the RC6502 SBC: 32kb of RAM and 8kb of ROM with some built-in programs.
 
 ## Compiling
 
